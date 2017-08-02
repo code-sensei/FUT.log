@@ -1,0 +1,19 @@
+page-login {
+    text-align: center;
+    color: map-get($colors, primary);
+    .header {
+        height: 45%;
+        text-align: center;
+        color: map-get($colors, primary);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    ion-list {
+        button {
+            padding: 20px;
+            text-align: center;
+        }
+    }
+}
